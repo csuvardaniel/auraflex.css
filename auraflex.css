@@ -185,6 +185,151 @@ a:hover {
 .active\:scale-95:active { transform: scale(0.95); }
 
 /* ============================
+   COLOR PALETTE
+   ============================ */
+
+/* Red Colors */
+.bg-red { background-color: #ef4444; }
+.bg-red-light { background-color: #f87171; }
+.bg-red-dark { background-color: #b91c1c; }
+
+.text-red { color: #ef4444; }
+.text-red-light { color: #f87171; }
+.text-red-dark { color: #b91c1c; }
+
+.border-red { border-color: #ef4444; }
+
+/* Green Colors */
+.bg-green { background-color: #10b981; }
+.bg-green-light { background-color: #6ee7b7; }
+.bg-green-dark { background-color: #047857; }
+
+.text-green { color: #10b981; }
+.text-green-light { color: #6ee7b7; }
+.text-green-dark { color: #047857; }
+
+.border-green { border-color: #10b981; }
+
+/* Blue Colors */
+.bg-blue { background-color: #2563eb; }
+.bg-blue-light { background-color: #93c5fd; }
+.bg-blue-dark { background-color: #1d4ed8; }
+
+.text-blue { color: #2563eb; }
+.text-blue-light { color: #93c5fd; }
+.text-blue-dark { color: #1d4ed8; }
+
+.border-blue { border-color: #2563eb; }
+
+/* Yellow Colors */
+.bg-yellow { background-color: #f59e0b; }
+.bg-yellow-light { background-color: #fef08a; }
+.bg-yellow-dark { background-color: #d97706; }
+
+.text-yellow { color: #f59e0b; }
+.text-yellow-light { color: #fef08a; }
+.text-yellow-dark { color: #d97706; }
+
+.border-yellow { border-color: #f59e0b; }
+
+/* Purple Colors */
+.bg-purple { background-color: #8b5cf6; }
+.bg-purple-light { background-color: #d8b4fe; }
+.bg-purple-dark { background-color: #6b21a8; }
+
+.text-purple { color: #8b5cf6; }
+.text-purple-light { color: #d8b4fe; }
+.text-purple-dark { color: #6b21a8; }
+
+.border-purple { border-color: #8b5cf6; }
+
+/* Pink Colors */
+.bg-pink { background-color: #ec4899; }
+.bg-pink-light { background-color: #f9a8d4; }
+.bg-pink-dark { background-color: #db2777; }
+
+.text-pink { color: #ec4899; }
+.text-pink-light { color: #f9a8d4; }
+.text-pink-dark { color: #db2777; }
+
+.border-pink { border-color: #ec4899; }
+
+/* Orange Colors */
+.bg-orange { background-color: #fdba74; }
+.bg-orange-light { background-color: #ffedd5; }
+.bg-orange-dark { background-color: #ea580c; }
+
+.text-orange { color: #fdba74; }
+.text-orange-light { color: #ffedd5; }
+.text-orange-dark { color: #ea580c; }
+
+.border-orange { border-color: #fdba74; }
+
+/* Gray Colors */
+.bg-gray { background-color: #6b7280; }
+.bg-gray-light { background-color: #d1d5db; }
+.bg-gray-dark { background-color: #374151; }
+
+.text-gray { color: #6b7280; }
+.text-gray-light { color: #d1d5db; }
+.text-gray-dark { color: #374151; }
+
+.border-gray { border-color: #6b7280; }
+
+/* Teal Colors */
+.bg-teal { background-color: #14b8a6; }
+.bg-teal-light { background-color: #a7f3d0; }
+.bg-teal-dark { background-color: #0d9488; }
+
+.text-teal { color: #14b8a6; }
+.text-teal-light { color: #a7f3d0; }
+.text-teal-dark { color: #0d9488; }
+
+.border-teal { border-color: #14b8a6; }
+
+/* Cyan Colors */
+.bg-cyan { background-color: #06b6d4; }
+.bg-cyan-light { background-color: #67e8f9; }
+.bg-cyan-dark { background-color: #0891b2; }
+
+.text-cyan { color: #06b6d4; }
+.text-cyan-light { color: #67e8f9; }
+.text-cyan-dark { color: #0891b2; }
+
+.border-cyan { border-color: #06b6d4; }
+
+/* Indigo Colors */
+.bg-indigo { background-color: #4f46e5; }
+.bg-indigo-light { background-color: #818cf8; }
+.bg-indigo-dark { background-color: #3730a3; }
+
+.text-indigo { color: #4f46e5; }
+.text-indigo-light { color: #818cf8; }
+.text-indigo-dark { color: #3730a3; }
+
+.border-indigo { border-color: #4f46e5; }
+
+/* Brown Colors */
+.bg-brown { background-color: #6a4f28; }
+.bg-brown-light { background-color: #e8d1b3; }
+.bg-brown-dark { background-color: #3e2c1c; }
+
+.text-brown { color: #6a4f28; }
+.text-brown-light { color: #e8d1b3; }
+.text-brown-dark { color: #3e2c1c; }
+
+.border-brown { border-color: #6a4f28; }
+
+/* White Colors */
+.bg-white { background-color: #ffffff; }
+.bg-white-light { background-color: #f9fafb; }
+
+.text-white { color: #ffffff; }
+.text-white-light { color: #f9fafb; }
+
+.border-white { border-color: #ffffff; }
+
+/* ============================
    GRID SYSTEM
    ============================ */
 .grid {

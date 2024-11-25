@@ -29,7 +29,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
 /* ============================
    UTILITY CLASSES
    ============================ */
@@ -103,6 +102,33 @@ a:hover {
 .items-center { align-items: center; }
 .items-end { align-items: flex-end; }
 .items-stretch { align-items: stretch; }
+
+/* New Flexbox Utilities */
+.flex-wrap { flex-wrap: wrap; }
+.flex-wrap-reverse { flex-wrap: wrap-reverse; }
+.flex-no-wrap { flex-wrap: nowrap; }
+
+.flex-grow { flex-grow: 1; }
+.flex-grow-0 { flex-grow: 0; }
+
+.flex-shrink { flex-shrink: 1; }
+.flex-shrink-0 { flex-shrink: 0; }
+
+.flex-basis-auto { flex-basis: auto; }
+.flex-basis-1/4 { flex-basis: 25%; }
+.flex-basis-1/2 { flex-basis: 50%; }
+.flex-basis-3/4 { flex-basis: 75%; }
+
+.align-self-auto { align-self: auto; }
+.align-self-start { align-self: flex-start; }
+.align-self-center { align-self: center; }
+.align-self-end { align-self: flex-end; }
+.align-self-stretch { align-self: stretch; }
+
+.gap-1 { gap: 0.25rem; }
+.gap-2 { gap: 0.5rem; }
+.gap-4 { gap: 1rem; }
+.gap-8 { gap: 2rem; }
 
 /* Border Widths */
 .border { border: 1px solid #e5e7eb; }
@@ -207,6 +233,7 @@ a:hover {
 .skew-x-15 { transform: skewX(15deg); }
 .skew-y-15 { transform: skewY(15deg); }
 
+
 /* ============================
    ANIMATIONS
    ============================ */
@@ -240,6 +267,252 @@ a:hover {
 
 .slide-in-right {
     animation: slideInRight 0.5s forwards;
+}
+
+/* Slide In Left */
+@keyframes slideInLeft {
+    0% { transform: translateX(-100%); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+.slide-in-left {
+    animation: slideInLeft 0.5s forwards;
+}
+
+/* Slide In Top */
+@keyframes slideInTop {
+    0% { transform: translateY(-100%); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+.slide-in-top {
+    animation: slideInTop 0.5s forwards;
+}
+
+/* Slide In Bottom */
+@keyframes slideInBottom {
+    0% { transform: translateY(100%); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+.slide-in-bottom {
+    animation: slideInBottom 0.5s forwards;
+}
+
+/* Bounce */
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-10px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+
+.bounce {
+    animation: bounce 1s ease infinite;
+}
+
+/* Pulse */
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.05); opacity: 0.7; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.pulse {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Shake */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
+
+.shake {
+    animation: shake 0.5s ease-in-out;
+}
+
+/* Zoom In */
+@keyframes zoomIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.zoom-in {
+    animation: zoomIn 0.5s forwards;
+}
+
+/* Zoom Out */
+@keyframes zoomOut {
+    0% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(0.5); opacity: 0; }
+}
+
+.zoom-out {
+    animation: zoomOut 0.5s forwards;
+}
+
+/* Rotate In */
+@keyframes rotateIn {
+    0% { transform: rotate(-200deg); opacity: 0; }
+    100% { transform: rotate(0); opacity: 1; }
+}
+
+.rotate-in {
+    animation: rotateIn 0.5s forwards;
+}
+
+/* Rotate Out */
+@keyframes rotateOut {
+    0% { transform: rotate(0); opacity: 1; }
+    100% { transform: rotate(200deg); opacity: 0; }
+}
+
+.rotate-out {
+    animation: rotateOut 0.5s forwards;
+}
+
+/* Flip In */
+@keyframes flipIn {
+    0% { transform: rotateY(-180deg); opacity: 0; }
+    100% { transform: rotateY(0); opacity: 1; }
+}
+
+.flip-in {
+    animation: flipIn 0.5s forwards;
+}
+
+/* Flip Out */
+@keyframes flipOut {
+    0% { transform: rotateY(0); opacity: 1; }
+    100% { transform: rotateY(180deg); opacity: 0; }
+}
+
+.flip-out {
+    animation: flipOut 0.5s forwards;
+}
+
+/* Slide Up */
+@keyframes slideUp {
+    0% { transform: translateY(100%); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+.slide-up {
+    animation: slideUp 0.5s forwards;
+}
+
+/* Slide Down */
+@keyframes slideDown {
+    0% { transform: translateY(-100%); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+.slide-down {
+    animation: slideDown 0.5s forwards;
+}
+
+/* Hinge */
+@keyframes hinge {
+    0% { transform: rotate(0); }
+    20% { transform: rotate(80deg); }
+    40% { transform: rotate(-60deg); }
+    60% { transform: rotate(30deg); }
+    80% { transform: rotate(-10deg); }
+    100% { transform: rotate(0); opacity: 0; }
+}
+
+.hinge {
+    animation: hinge 2s ease-in-out;
+}
+
+/* Bounce In */
+@keyframes bounceIn {
+    0% { transform: scale(0.3); opacity: 0; }
+    50% { transform: scale(1.05); opacity: 1; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.bounce-in {
+    animation: bounceIn 1s ease-out forwards;
+}
+
+/* Bounce Out */
+@keyframes bounceOut {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(0.3); opacity: 0; }
+    100% { transform: scale(1); opacity: 0; }
+}
+
+.bounce-out {
+    animation: bounceOut 1s ease-out forwards;
+}
+
+/* ============================
+   ADDITIONAL ANIMATION UTILITIES
+   ============================ */
+
+/* Fade In from Left */
+.fade-in-left {
+    animation: fadeInLeft 0.5s forwards;
+}
+
+@keyframes fadeInLeft {
+    0% { opacity: 0; transform: translateX(-20px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+/* Fade In from Right */
+.fade-in-right {
+    animation: fadeInRight 0.5s forwards;
+}
+
+@keyframes fadeInRight {
+    0% { opacity: 0; transform: translateX(20px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+/* Fade In from Top */
+.fade-in-top {
+    animation: fadeInTop 0.5s forwards;
+}
+
+@keyframes fadeInTop {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Fade In from Bottom */
+.fade-in-bottom {
+    animation: fadeInBottom 0.5s forwards;
+}
+
+@keyframes fadeInBottom {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* ============================
+   ADDITIONAL TRANSITIONS
+   ============================ */
+
+/* General Transition */
+.transition-all {
+    transition: all 0.3s ease;
+}
+
+/* Transition on Hover */
+.hover\:opacity-75:hover {
+    opacity: 0.75;
+}
+
+/* Active State */
+.active\:scale-95:active {
+    transform: scale(0.95);
 }
 
 /* ============================
@@ -288,26 +561,298 @@ a:hover {
 }
 
 /* ============================
-   BUTTONS
+   BUTTON STYLES
    ============================ */
 
-.button {
-    padding: 0.75rem 1.5rem;
-    background-color: #2563eb;
-    color: #fff;
+/* Base Button */
+button {
+    padding: 0.5rem 1rem;
     border: none;
     border-radius: 0.375rem;
+    font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-align: center;
 }
 
-.button:hover {
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+
+/* Primary Button */
+.button-primary {
+    background-color: #2563eb;
+    color: white;
+}
+
+.button-primary:hover {
     background-color: #1d4ed8;
 }
 
-.button:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+.button-primary:active {
+    background-color: #1e40af;
+}
+
+.button-primary:focus {
+    background-color: #1d4ed8;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+
+/* Secondary Button */
+.button-secondary {
+    background-color: #4b5563;
+    color: white;
+}
+
+.button-secondary:hover {
+    background-color: #374151;
+}
+
+.button-secondary:active {
+    background-color: #2d3d44;
+}
+
+.button-secondary:focus {
+    background-color: #374151;
+    box-shadow: 0 0 0 2px rgba(75, 85, 99, 0.25);
+}
+
+/* Danger Button */
+.button-danger {
+    background-color: #ef4444;
+    color: white;
+}
+
+.button-danger:hover {
+    background-color: #dc2626;
+}
+
+.button-danger:active {
+    background-color: #b91c1c;
+}
+
+.button-danger:focus {
+    background-color: #dc2626;
+    box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.25);
+}
+
+/* Success Button */
+.button-success {
+    background-color: #10b981;
+    color: white;
+}
+
+.button-success:hover {
+    background-color: #059669;
+}
+
+.button-success:active {
+    background-color: #047857;
+}
+
+.button-success:focus {
+    background-color: #059669;
+    box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.25);
+}
+
+/* Info Button */
+.button-info {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.button-info:hover {
+    background-color: #2563eb;
+}
+
+.button-info:active {
+    background-color: #1d4ed8;
+}
+
+.button-info:focus {
+    background-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+}
+
+/* Warning Button */
+.button-warning {
+    background-color: #f59e0b;
+    color: white;
+}
+
+.button-warning:hover {
+    background-color: #d97706;
+}
+
+.button-warning:active {
+    background-color: #b45309;
+}
+
+.button-warning:focus {
+    background-color: #d97706;
+    box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.25);
+}
+
+/* Transparent Button */
+.button-transparent {
+    background-color: transparent;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+}
+
+.button-transparent:hover {
+    background-color: #2563eb;
+    color: white;
+}
+
+.button-transparent:active {
+    background-color: #1d4ed8;
+    color: white;
+}
+
+.button-transparent:focus {
+    background-color: #2563eb;
+    color: white;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+
+/* Outline Button */
+.button-outline {
+    background-color: transparent;
+    color: #2563eb;
+    border: 2px solid #2563eb;
+}
+
+.button-outline:hover {
+    background-color: #2563eb;
+    color: white;
+}
+
+.button-outline:active {
+    background-color: #1d4ed8;
+    color: white;
+}
+
+.button-outline:focus {
+    background-color: #2563eb;
+    color: white;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+
+/* Button Sizes */
+
+/* Small Button */
+.button-small {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Medium Button (default size) */
+.button-medium {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+/* Large Button */
+.button-large {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+}
+
+/* ============================
+   BUTTON STATES
+   ============================ */
+
+/* Disabled Button */
+.button:disabled,
+.button-primary:disabled,
+.button-secondary:disabled,
+.button-danger:disabled,
+.button-success:disabled,
+.button-info:disabled,
+.button-warning:disabled,
+.button-transparent:disabled,
+.button-outline:disabled {
+    background-color: #e5e7eb;
+    color: #9ca3af;
+    cursor: not-allowed;
+    border: 1px solid #e5e7eb;
+}
+
+.button:disabled:hover,
+.button-primary:disabled:hover,
+.button-secondary:disabled:hover,
+.button-danger:disabled:hover,
+.button-success:disabled:hover,
+.button-info:disabled:hover,
+.button-warning:disabled:hover,
+.button-transparent:disabled:hover,
+.button-outline:disabled:hover {
+    background-color: #e5e7eb;
+    color: #9ca3af;
+}
+
+/* ============================
+   ADDITIONAL BUTTONS
+   ============================ */
+
+/* Icon Buttons */
+.button-icon {
+    padding: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-icon svg {
+    margin-right: 0.5rem;
+}
+
+/* Loading Button */
+.button-loading {
+    position: relative;
+}
+
+.button-loading .spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid transparent;
+    border-top-color: white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* ============================
+   BUTTON GROUPS
+   ============================ */
+.button-group {
+    display: inline-flex;
+    gap: 0.5rem;
+}
+
+.button-group .button {
+    border-radius: 0.375rem;
+}
+
+.button-group .button:first-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.button-group .button:last-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 /* ============================

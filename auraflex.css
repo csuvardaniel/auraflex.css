@@ -167,6 +167,43 @@ a:hover {
 /* Margin Helpers */
 .ml-auto { margin-left: auto; }
 .mr-auto { margin-right: auto; }
+/* Rounded Utilities */
+.rounded {
+    border-radius: 0.25rem; /* Small rounding */
+}
+
+.rounded-md {
+    border-radius: 0.5rem; /* Medium rounding */
+}
+
+.rounded-lg {
+    border-radius: 1rem; /* Large rounding */
+}
+
+.rounded-full {
+    border-radius: 9999px; /* Fully rounded (circle/oval) */
+}
+
+/* Customization for specific sides */
+.rounded-t {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.rounded-b {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.rounded-l {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-r {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
 
 /* Transitions */
 .transition-all { transition: all 0.3s ease-in-out; }

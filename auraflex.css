@@ -220,6 +220,133 @@ a:hover {
 /* Active States */
 .active\:bg-primary:active { background-color: #1d4ed8; }
 .active\:scale-95:active { transform: scale(0.95); }
+/* ============================
+   TYPOGRAPHY
+   ============================ */
+/* Font Size Utilities */
+.text-xs { font-size: 0.75rem; } /* Extra Small */
+.text-sm { font-size: 0.875rem; } /* Small */
+.text-base { font-size: 1rem; } /* Base (Default) */
+.text-lg { font-size: 1.125rem; } /* Large */
+.text-xl { font-size: 1.25rem; } /* Extra Large */
+.text-2xl { font-size: 1.5rem; } /* 2x Large */
+.text-3xl { font-size: 1.875rem; } /* 3x Large */
+.text-4xl { font-size: 2.25rem; } /* 4x Large */
+.text-5xl { font-size: 3rem; } /* 5x Large */
+
+/* Font Weight Utilities */
+.font-thin { font-weight: 100; } /* Thin */
+.font-extralight { font-weight: 200; } /* Extra Light */
+.font-light { font-weight: 300; } /* Light */
+.font-normal { font-weight: 400; } /* Normal */
+.font-medium { font-weight: 500; } /* Medium */
+.font-semibold { font-weight: 600; } /* Semi Bold */
+.font-bold { font-weight: 700; } /* Bold */
+.font-extrabold { font-weight: 800; } /* Extra Bold */
+.font-black { font-weight: 900; } /* Black */
+
+/* Font Style Utilities */
+.italic { font-style: italic; }
+.not-italic { font-style: normal; }
+
+/* Text Decoration Utilities */
+.underline { text-decoration: underline; }
+.line-through { text-decoration: line-through; }
+.no-underline { text-decoration: none; }
+
+/* Text Transform Utilities */
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+.capitalize { text-transform: capitalize; }
+.normal-case { text-transform: none; }
+
+/* Text Alignment Utilities */
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-justify { text-align: justify; }
+
+/* Font Families */
+
+/* Sans-serif fonts */
+.font-arial { font-family: Arial, sans-serif; }
+.font-helvetica { font-family: Helvetica, sans-serif; }
+.font-verdana { font-family: Verdana, sans-serif; }
+.font-tahoma { font-family: Tahoma, sans-serif; }
+.font-trebuchet { font-family: "Trebuchet MS", sans-serif; }
+
+/* Serif fonts */
+.font-times { font-family: "Times New Roman", serif; }
+.font-georgia { font-family: Georgia, serif; }
+.font-garamond { font-family: Garamond, serif; }
+
+/* Monospace fonts */
+.font-courier { font-family: "Courier New", monospace; }
+.font-consolas { font-family: Consolas, monospace; }
+.font-monaco { font-family: Monaco, monospace; }
+
+/* System defaults */
+.font-system-sans { font-family: system-ui, sans-serif; }
+.font-system-serif { font-family: serif; }
+.font-system-mono { font-family: monospace; }
+
+/* Letter Spacing */
+.tracking-tight { letter-spacing: -0.05em; }
+.tracking-normal { letter-spacing: 0; }
+.tracking-wide { letter-spacing: 0.1em; }
+.tracking-widest { letter-spacing: 0.25em; }
+
+/* Basic Shadow */
+.text-shadow { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); }
+
+/* Glowing Text */
+.text-glow {
+  text-shadow: 0 0 5px #ff6b6b, 0 0 10px #ff6b6b, 0 0 15px #ff6b6b;
+}
+
+/* Fluid Typography */
+.text-fluid {
+  font-size: calc(1rem + 2vw);
+}
+
+/* Hover Effects */
+.text-hover-color:hover { color: #ff6b6b; }
+.text-hover-shadow:hover { text-shadow: 2px 2px 5px rgba(255, 107, 107, 0.8); }
+.text-hover-glow:hover { text-shadow: 0 0 10px #48dbfb, 0 0 20px #48dbfb; }
+
+/* Vertical Text */
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+/* 3D Text */
+.text-3d {
+  text-shadow: 1px 1px 0px #aaa, 2px 2px 0px #888, 3px 3px 0px #666;
+}
+
+/* Blinking Text */
+.blink {
+  animation: blink-animation 1.5s infinite;
+}
+
+@keyframes blink-animation {
+  50% { opacity: 0; }
+}
+
+/* Text Color Shift */
+.text-color-shift {
+  animation: color-shift 3s infinite;
+}
+
+@keyframes color-shift {
+  0% { color: #ff6b6b; }
+  25% { color: #fbc531; }
+  50% { color: #1dd1a1; }
+  75% { color: #48dbfb; }
+  100% { color: #ff6b6b; }
+}
+
 
 /* ============================
    COLOR PALETTE

@@ -222,3 +222,317 @@ These classes help you set active states of an element.
 
 - `.active:bg-primary:active`: Changes the background color to #1d4ed8 when the element is active.
 - `.active:scale-95:active`: Scales the element to 0.95 when the element is active.
+
+## Typography
+
+### Font Sizes
+
+| Class Name | Font Size |
+|------------|-----------|
+| `.text-xs`  | `0.75rem`  |
+| `.text-sm`  | `0.875rem`  |
+| `.text-base`| `1rem`  |
+| `.text-lg`  | `1.125rem`  |
+| `.text-xl`  | `1.25rem`  |
+| `.text-2xl` | `1.5rem`  |
+| `.text-3xl` | `1.875rem`  |
+| `.text-4xl` | `2.25rem`  |
+| `.text-5xl` | `3rem`  |
+
+### Font Weights
+
+| Class Name        | Font Weight |
+|-------------------|-------------|
+| `.font-thin`      | `100`       |
+| `.font-extralight`| `200`       |
+| `.font-light`     | `300`       |
+| `.font-normal`    | `400`       |
+| `.font-medium`    | `500`       |
+| `.font-semibold`  | `600`       |
+| `.font-bold`      | `700`       |
+| `.font-extrabold` | `800`       |
+| `.font-black`     | `900`       |
+
+### Font Styles
+
+| Class Name        | Font Style |
+|-------------------|------------|
+| `.italic`         | `italic`   |
+| `.not-italic`     | `normal`   |
+
+### Text Decoration
+
+| Class Name          | Text Decoration |
+|---------------------|-----------------|
+| `.underline`        | `underline`    |
+| `.line-through`      | `line-through`  |
+| `.no-underline`     | `none`          |
+
+### Text Transform
+
+| Class Name         | Text Transform |
+|--------------------|----------------|
+| `.uppercase`       | `uppercase`    |
+| `.lowercase`       | `lowercase`    |
+| `.capitalize`      | `capitalize`   |
+| `.normal-case`     | `none`         |
+
+### Text Alignment
+
+| Class Name        | Text Alignment |
+|-------------------|----------------|
+| `.text-left`      | `left`         |
+| `.text-center`    | `center`       |
+| `.text-right`     | `right`        |
+| `.text-justify`   | `justify`      |
+
+### Font Families
+
+#### Sans-serif Fonts
+
+| Class Name         | Font Family       |
+|--------------------|-------------------|
+| `.font-arial`      | `Arial, sans-serif`  |
+| `.font-helvetica`  | `Helvetica, sans-serif` |
+| `.font-verdana`    | `Verdana, sans-serif` |
+| `.font-tahoma`     | `Tahoma, sans-serif` |
+| `.font-trebuchet`  | `"Trebuchet MS", sans-serif` |
+
+#### Serif Fonts
+
+| Class Name         | Font Family       |
+|--------------------|-------------------|
+| `.font-times`      | `"Times New Roman", serif` |
+| `.font-georgia`    | `Georgia, serif` |
+| `.font-garamond`   | `Garamond, serif` |
+
+#### Monospace Fonts
+
+| Class Name         | Font Family       |
+|--------------------|-------------------|
+| `.font-courier`    | `"Courier New", monospace` |
+| `.font-consolas`   | `Consolas, monospace` |
+| `.font-monaco`     | `Monaco, monospace` |
+
+#### System Defaults
+
+| Class Name         | Font Family       |
+|--------------------|-------------------|
+| `.font-system-sans`| `system-ui, sans-serif` |
+| `.font-system-serif`| `serif` |
+| `.font-system-mono`| `monospace` |
+
+### Letter Spacing
+
+| Class Name         | Letter Spacing       |
+|--------------------|---------------------|
+| `.tracking-tight`  | `-0.05em`            |
+| `.tracking-normal`| `0`                 |
+| `.tracking-wide`  | `0.1em`              |
+| `.tracking-widest`| `0.25em`             |
+
+### Basic Shadow
+
+| Class Name         | Text Shadow |
+|--------------------|-------------|
+| `.text-shadow`     | `2px 2px 4px rgba(0, 0, 0, 0.3)` |
+
+### Glowing Text
+
+| Class Name         | Text Shadow |
+|--------------------|-------------|
+| `.text-glow`       | `0 0 5px #ff6b6b, 0 0 10px #ff6b6b, 0 0 15px #ff6b6b` |
+
+### Fluid Typography
+
+| Class Name         | Font Size       |
+|--------------------|-----------------|
+| `.text-fluid`      | `calc(1rem + 2vw)` |
+
+### Hover Effects
+
+| Class Name         | Hover Effects |
+|--------------------|---------------|
+| `.text-hover-color`| Color: `#ff6b6b` |
+| `.text-hover-shadow`| Text Shadow: `2px 2px 5px rgba(255, 107, 107, 0.8)` |
+| `.text-hover-glow` | Text Shadow: `0 0 10px #48dbfb, 0 0 20px #48dbfb` |
+
+### Vertical Text
+
+| Class Name         | Writing Mode       |
+|--------------------|--------------------|
+| `.vertical-text`   | `vertical-rl`, `text-orientation: upright` |
+
+### 3D Text
+
+| Class Name         | Text Shadow       |
+|--------------------|-------------------|
+| `.text-3d`         | `1px 1px 0px #aaa, 2px 2px 0px #888, 3px 3px 0px #666` |
+
+### Blinking Text
+
+| Class Name         | Animation        |
+|--------------------|------------------|
+| `.blink`           | `blink-animation 1.5s infinite` |
+
+### Text Color Shift
+
+| Class Name         | Animation        |
+|--------------------|------------------|
+| `.text-color-shift`| `color-shift 3s infinite` |
+
+## Color Palette
+
+### Red Colors
+
+| Class Name       | Background Color | Text Color |
+|------------------|------------------|-------------|
+| `.bg-red`        | `#ef4444`        | `#ef4444`   |
+| `.bg-red-light`  | `#f87171`        | `#f87171`   |
+| `.bg-red-dark`   | `#b91c1c`        | `#b91c1c`   |
+| `.text-red`      | `#ef4444`        | `#ef4444`   |
+| `.text-red-light`| `#f87171`        | `#f87171`   |
+| `.text-red-dark` | `#b91c1c`        | `#b91c1c`   |
+| `.border-red`    | `#ef4444`        | `#ef4444`   |
+
+### Green Colors
+
+| Class Name       | Background Color | Text Color |
+|------------------|------------------|-------------|
+| `.bg-green`      | `#10b981`        | `#10b981`   |
+| `.bg-green-light`| `#6ee7b7`        | `#6ee7b7`   |
+| `.bg-green-dark` | `#047857`        | `#047857`   |
+| `.text-green`    | `#10b981`        | `#10b981`   |
+| `.text-green-light`| `#6ee7b7`        | `#6ee7b7`   |
+| `.text-green-dark`| `#047857`        | `#047857`   |
+| `.border-green`  | `#10b981`        | `#10b981`   |
+
+### Blue Colors
+
+| Class Name       | Background Color | Text Color |
+|------------------|------------------|-------------|
+| `.bg-blue`       | `#2563eb`        | `#2563eb`   |
+| `.bg-blue-light` | `#93c5fd`        | `#93c5fd`   |
+| `.bg-blue-dark`  | `#1d4ed8`        | `#1d4ed8`   |
+| `.text-blue`     | `#2563eb`        | `#2563eb`   |
+| `.text-blue-light`| `#93c5fd`        | `#93c5fd`   |
+| `.text-blue-dark`| `#1d4ed8`        | `#1d4ed8`   |
+| `.border-blue`   | `#2563eb`        | `#2563eb`   |
+
+### Yellow Colors
+
+| Class Name       | Background Color | Text Color |
+|------------------|------------------|-------------|
+| `.bg-yellow`     | `#f59e0b`        | `#f59e0b`   |
+| `.bg-yellow-light`| `#fef08a`        | `#fef08a`   |
+| `.bg-yellow-dark`| `#d97706`        | `#d97706`   |
+| `.text-yellow`   | `#f59e0b`        | `#f59e0b`   |
+| `.text-yellow-light`| `#fef08a`        | `#fef08a`   |
+| `.text-yellow-dark`| `#d97706`        | `#d97706`   |
+| `.border-yellow` | `#f59e0b`        | `#f59e0b`   |
+
+### Purple Colors
+
+| Class Name       | Background Color | Text Color |
+|------------------|------------------|-------------|
+| `.bg-purple`     | `#8b5cf6`        | `#8b5cf6`   |
+| `.bg-purple-light`| `#d8b4fe`        | `#d8b4fe`   |
+| `.bg-purple-dark`| `#6b21a8`        | `#6b21a8`   |
+| `.text-purple`   | `#8b5cf6`        | `#8b5cf6`   |
+| `.text-purple-light`| `#d8b4fe`        | `#d8b4fe`   |
+| `.text-purple-dark`| `#6b21a8`        | `#6b21a8`   |
+| `.border-purple` | `#8b5cf6`        | `#8b5cf6`   |
+
+### Pink Colors
+
+| Class Name       | Background Color | Text Color |
+|------------------|------------------|-------------|
+| `.bg-pink`       | `#ec4899`        | `#ec4899`   |
+| `.bg-pink-light` | `#f9a8d4`        | `#f9a8d4`   |
+| `.bg-pink-dark`  | `#db2777`        | `#db2777`   |
+| `.text-pink`     | `#ec4899`        | `#ec4899`   |
+| `.text-pink-light`| `#f9a8d4`        | `#f9a8d4`   |
+| `.text-pink-dark`| `#db2777`        | `#db2777`   |
+| `.border-pink`   | `#ec4899`        | `#ec4899`   |
+
+### Orange Colors
+
+| Class Name       | Background Color | Text Color |
+|------------------|------------------|-------------|
+| `.bg-orange`     | `#fdba74`        | `#fdba74`   |
+| `.bg-orange-light`| `#ffedd5`        | `#ffedd5`   |
+| `.bg-orange-dark`| `#ea580c`        | `#ea580c`   |
+| `.text-orange`   | `#fdba74`        | `#fdba74`   |
+| `.text-orange-light`| `#ffedd5`        | `#ffedd5`   |
+| `.text-orange-dark`| `#ea580c`        | `#ea580c`   |
+| `.border-orange` | `#fdba74`        | `#fdba74`   |
+
+### Gray Colors
+
+| Class Name       | Background Color | Text Color |
+|------------------|------------------|-------------|
+| `.bg-gray`       | `#6b7280`        | `#6b7280`   |
+| `.bg-gray-light` | `#d1d5db`        | `#d1d5db`   |
+| `.bg-gray-dark`  | `#374151`        | `#374151`   |
+| `.text-gray`     | `#6b7280`        | `#6b7280`   |
+| `.text-gray-light`| `#d1d5db`        | `#d1d5db`   |
+| `.text-gray-dark`| `#374151`        | `#374151`   |
+| `.border-gray`   | `#6b7280`        | `#6b7280`   |
+
+### Teal Colors
+
+| Class Name       | Background Color | Text Color |
+|------------------|------------------|-------------|
+| `.bg-teal`       | `#14b8a6`        | `#14b8a6`   |
+| `.bg-teal-light` | `#a7f3d0`        | `#a7f3d0`   |
+| `.bg-teal-dark`  | `#0d9488`        | `#0d9488`   |
+| `.text-teal`     | `#14b8a6`        | `#14b8a6`   |
+| `.text-teal-light`| `#a7f3d0`        | `#a7f3d0`   |
+| `.text-teal-dark`| `#0d9488`        | `#0d9488`   |
+| `.border-teal`   | `#14b8a6`        | `#14b8a6`   |
+
+### Cyan Colors
+
+| Class Name       | Background Color | Text Color |
+|------------------|------------------|-------------|
+| `.bg-cyan`       | `#06b6d4`        | `#06b6d4`   |
+| `.bg-cyan-light` | `#67e8f9`        | `#67e8f9`   |
+| `.bg-cyan-dark`  | `#0891b2`        | `#0891b2`   |
+| `.text-cyan`     | `#06b6d4`        | `#06b6d4`   |
+| `.text-cyan-light`| `#67e8f9`        | `#67e8f9`   |
+| `.text-cyan-dark`| `#0891b2`        | `#0891b2`   |
+| `.border-cyan`   | `#06b6d4`        | `#06b6d4`   |
+
+### Indigo Colors
+
+| Class Name       | Background Color | Text Color |
+|------------------|------------------|-------------|
+| `.bg-indigo`     | `#4f46e5`        | `#4f46e5`   |
+| `.bg-indigo-light`| `#818cf8`        | `#818cf8`   |
+| `.bg-indigo-dark`| `#3730a3`        | `#3730a3`   |
+| `.text-indigo`   | `#4f46e5`        | `#4f46e5`   |
+| `.text-indigo-light`| `#818cf8`        | `#818cf8`   |
+| `.text-indigo-dark`| `#3730a3`        | `#3730a3`   |
+| `.border-indigo` | `#4f46e5`        | `#4f46e5`   |
+
+### Brown Colors
+
+| Class Name       | Background Color | Text Color |
+|------------------|------------------|-------------|
+| `.bg-brown`      | `#6a4f28`        | `#6a4f28`   |
+| `.bg-brown-light`| `#e8d1b3`        | `#e8d1b3`   |
+| `.bg-brown-dark` | `#3e2c1c`        | `#3e2c1c`   |
+| `.text-brown`    | `#6a4f28`        | `#6a4f28`   |
+| `.text-brown-light`| `#e8d1b3`        | `#e8d1b3`   |
+| `.text-brown-dark`| `#3e2c1c`        | `#3e2c1c`   |
+| `.border-brown`  | `#6a4f28`        | `#6a4f28`   |
+
+### White Colors
+
+| Class Name       | Background Color | Text Color |
+|------------------|------------------|-------------|
+| `.bg-white`      | `#ffffff`        | `#ffffff`   |
+| `.bg-white-light`| `#f9fafb`        | `#f9fafb`   |
+| `.text-white`    | `#ffffff`        | `#ffffff`   |
+| `.text-white-light`| `#f9fafb`        | `#f9fafb`   |
+| `.border-white`  | `#ffffff`        | `#ffffff`   |

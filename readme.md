@@ -583,6 +583,28 @@ The Grid System is a utility class that provides a flexible grid layout based on
   <div>Column 2</div>
 </div>
 
+### Transforms
+
+The `.transform` class is used to apply CSS transforms to elements. These transforms can include scaling, rotating, translating, and skewing. The following classes provide pre-defined transform values.
+
+#### Scaling
+- `.scale-90`: Scales the element to 90% of its original size.
+- `.scale-100`: Scales the element to 100% of its original size (no change).
+- `.scale-110`: Scales the element to 110% of its original size.
+
+#### Rotating
+- `.rotate-45`: Rotates the element 45 degrees.
+- `.rotate-90`: Rotates the element 90 degrees.
+- `.rotate-180`: Rotates the element 180 degrees.
+
+#### Translating
+- `.translate-x-1`, `.translate-x-2`, `.translate-x-4`: Translate the element horizontally by 1rem, 2rem, or 4rem respectively.
+- `.translate-y-1`, `.translate-y-2`, `.translate-y-4`: Translate the element vertically by 1rem, 2rem, or 4rem respectively.
+
+#### Skewing
+- `.skew-x-15`: Skews the element 15 degrees along the x-axis.
+- `.skew-y-15`: Skews the element 15 degrees along the y-axis.
+
 
 | Class Name       | Background Color | Text Color |
 |------------------|------------------|-------------|

@@ -529,6 +529,14 @@ These classes help you set active states of an element.
 
 ### White Colors
 
+| Class Name       | Background Color | Text Color |
+|------------------|------------------|-------------|
+| `.bg-white`      | `#ffffff`        | `#ffffff`   |
+| `.bg-white-light`| `#f9fafb`        | `#f9fafb`   |
+| `.text-white`    | `#ffffff`        | `#ffffff`   |
+| `.text-white-light`| `#f9fafb`        | `#f9fafb`   |
+| `.border-white`  | `#ffffff`        | `#ffffff`   |
+
 # Grid System
 
 The Grid System is a utility class that provides a flexible grid layout based on a 12-column grid system.
@@ -582,7 +590,7 @@ The Grid System is a utility class that provides a flexible grid layout based on
   <div>Column 1</div>
   <div>Column 2</div>
 </div>
-
+```
 ### Transforms
 
 The `.transform` class is used to apply CSS transforms to elements. These transforms can include scaling, rotating, translating, and skewing. The following classes provide pre-defined transform values.
@@ -604,12 +612,3 @@ The `.transform` class is used to apply CSS transforms to elements. These transf
 #### Skewing
 - `.skew-x-15`: Skews the element 15 degrees along the x-axis.
 - `.skew-y-15`: Skews the element 15 degrees along the y-axis.
-
-
-| Class Name       | Background Color | Text Color |
-|------------------|------------------|-------------|
-| `.bg-white`      | `#ffffff`        | `#ffffff`   |
-| `.bg-white-light`| `#f9fafb`        | `#f9fafb`   |
-| `.text-white`    | `#ffffff`        | `#ffffff`   |
-| `.text-white-light`| `#f9fafb`        | `#f9fafb`   |
-| `.border-white`  | `#ffffff`        | `#ffffff`   |

@@ -612,3 +612,27 @@ The `.transform` class is used to apply CSS transforms to elements. These transf
 #### Skewing
 - `.skew-x-15`: Skews the element 15 degrees along the x-axis.
 - `.skew-y-15`: Skews the element 15 degrees along the y-axis.
+
+| Class Name | Animation Description |
+|------------|-----------------------|
+| `.fade-in` | Opacity transitions from 0 to 1 over 0.5s with a forward fill mode. |
+| `.fade-out` | Opacity transitions from 1 to 0 over 0.5s with a forward fill mode. |
+| `.slide-in-right` | Translates horizontally from right to left over 0.5s, opacity changes from 0 to 1. |
+| `.slide-in-left` | Translates horizontally from left to right over 0.5s, opacity changes from 0 to 1. |
+| `.slide-in-top` | Translates vertically from top to bottom over 0.5s, opacity changes from 0 to 1. |
+| `.slide-in-bottom` | Translates vertically from bottom to top over 0.5s, opacity changes from 0 to 1. |
+| `.bounce` | A simple bouncing animation that repeats infinitely over 1s. |
+| `.pulse` | A pulse-like animation that repeats infinitely over 1.5s. |
+| `.shake` | A shaking animation over 0.5s. |
+| `.zoom-in` | Scales from 0.5 to 1 with opacity changes from 0 to 1 over 0.5s. |
+| `.zoom-out` | Scales from 1 to 0.5 with opacity changes from 1 to 0 over 0.5s. |
+| `.rotate-in` | Rotates from -200° to 0° with opacity changes from 0 to 1 over 0.5s. |
+| `.rotate-out` | Rotates from 0° to 200° with opacity changes from 1 to 0 over 0.5s. |
+| `.flip-in` | Rotates from -180° to 0° with opacity changes from 0 to 1 over 0.5s. |
+| `.flip-out` | Rotates from 0° to 180° with opacity changes from 1 to 0 over 0.5s. |
+| `.slide-up` | Translates vertically from top to bottom over 0.5s, opacity changes from 0 to 1. |
+| `.slide-down` | Translates vertically from bottom to top over 0.5s, opacity changes from 0 to 1. |
+| `.hinge` | A hinge-like animation over 2s. |
+| `.bounce-in` | Scales from 0.3 to 1.05 with opacity changes from 0 to 1 over 1s. |
+| `.bounce-out` | Scales from 1 to 0.3 with opacity changes from 1 to 0 over 1s. |
+

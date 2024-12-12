@@ -529,6 +529,61 @@ These classes help you set active states of an element.
 
 ### White Colors
 
+# Grid System
+
+The Grid System is a utility class that provides a flexible grid layout based on a 12-column grid system.
+
+## Usage
+
+```html
+<div class="grid">
+  <!-- Grid items go here -->
+</div>
+```
+
+## Classes
+
+### Grid Breakpoints
+
+- `.grid` - Defines a grid container with 12 columns and a gap of 1rem between items.
+- `.grid-cols-1`, `.grid-cols-2`, `.grid-cols-3`, `.grid-cols-4`, `.grid-cols-6`, `.grid-cols-12` - Define the number of columns for the grid items.
+  - `.grid-cols-1` - 1 column
+  - `.grid-cols-2` - 2 columns
+  - `.grid-cols-3` - 3 columns
+  - `.grid-cols-4` - 4 columns
+  - `.grid-cols-6` - 6 columns
+  - `.grid-cols-12` - 12 columns
+
+### Column Spanning
+
+- `.col-span-1`, `.col-span-2`, `.col-span-3`, `.col-span-4`, `.col-span-6`, `.col-span-12` - Define the number of columns a grid item should span.
+  - `.col-span-1` - Span 1 column
+  - `.col-span-2` - Span 2 columns
+  - `.col-span-3` - Span 3 columns
+  - `.col-span-4` - Span 4 columns
+  - `.col-span-6` - Span 6 columns
+  - `.col-span-12` - Span 12 columns
+
+## Examples
+
+### Single Column
+
+```html
+<div class="grid">
+  <div class="grid-cols-1">Column 1</div>
+  <div class="grid-cols-1">Column 2</div>
+</div>
+```
+
+### Two Columns
+
+```html
+<div class="grid grid-cols-2">
+  <div>Column 1</div>
+  <div>Column 2</div>
+</div>
+
+
 | Class Name       | Background Color | Text Color |
 |------------------|------------------|-------------|
 | `.bg-white`      | `#ffffff`        | `#ffffff`   |
